@@ -4,10 +4,15 @@ import "./index.css";
 import App from "./containers/App";
 import * as serviceWorker from "./serviceWorker";
 import store from "./store/index";
-
+import { BrowserRouter } from "react-router-dom";
 const render = () => {
   fancylog();
-  return ReactDOM.render(<App />, document.getElementById("root"));
+  return ReactDOM.render(
+    <BrowserRouter>
+      <App />
+    </BrowserRouter>,
+    document.getElementById("root")
+  );
 };
 render();
 store.subscribe(render);

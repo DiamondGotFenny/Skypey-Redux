@@ -6,6 +6,7 @@ import "./ChatWindow.css";
 import MessageInput from "./MessageInput";
 const ChatWindow = ({ activUserId }) => {
   const state = store.getState();
+  console.log(state);
   const activeUser = state.contacts[activUserId];
   const messages = state.messages[activUserId];
   const { typing } = state;

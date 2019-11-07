@@ -4,7 +4,6 @@ import Sidebar from "../components/Sidebar";
 import Main from "../components/Main";
 import store from "../store/index";
 import _ from "lodash";
-
 function App() {
   const { contacts, user, activUserId } = store.getState();
 

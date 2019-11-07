@@ -2,10 +2,15 @@ import { SET_ACTIVE_USER_ID } from "../constants/action_type";
 import { SET_CHAT_MESSAGES } from "../constants/action_type";
 import { SET_TYPING_VALUE } from "../constants/action_type";
 import { SEND_MESSAGE } from "../constants/action_type";
+import { SET_ACTIVE_USER } from "./../constants/action_type";
 
 export const setActiveUserId = id => ({
   type: SET_ACTIVE_USER_ID,
   payload: id
+});
+export const setActiveUser = user => ({
+  type: SET_ACTIVE_USER,
+  payload: user
 });
 
 export const setChatMessages = messages => ({

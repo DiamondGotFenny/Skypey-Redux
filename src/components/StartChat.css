@@ -1,0 +1,34 @@
+.StartChat {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+.StartChat__name {
+  color: #fff;
+}
+.StartChat__status,
+.StartChat__info {
+  padding: 1rem;
+}
+.StartChat__status {
+  color: rgba(255, 255, 255, 0.9);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.7);
+}
+.StartChat__btn {
+  padding: 1rem;
+  margin: 1rem 0;
+  outline: 0;
+  font-weight: bold;
+  font-size: 1.2rem;
+  border-radius: 30px;
+}
+.StartChat__btn:hover {
+  background: rgba(255, 255, 255, 0.7);
+  cursor: pointer;
+}
+a {
+  color: inherit;
+  text-decoration: none;
+}
