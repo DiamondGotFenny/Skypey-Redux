@@ -2,6 +2,11 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## Available Scripts
 
+Packages you need install before you can start or test:
+npm i faker
+npm i shortid
+npm i txtgen
+
 In the project directory, you can run:
 
 ### `npm start`
