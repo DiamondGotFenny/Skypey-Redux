@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/Skypey-Redux/static/css/main.bb7baa28.chunk.css",
+    "main.js": "/Skypey-Redux/static/js/main.1d5e0c06.chunk.js",
+    "main.js.map": "/Skypey-Redux/static/js/main.1d5e0c06.chunk.js.map",
+    "runtime-main.js": "/Skypey-Redux/static/js/runtime-main.a4b70d60.js",
+    "runtime-main.js.map": "/Skypey-Redux/static/js/runtime-main.a4b70d60.js.map",
+    "static/js/2.259d31af.chunk.js": "/Skypey-Redux/static/js/2.259d31af.chunk.js",
+    "static/js/2.259d31af.chunk.js.map": "/Skypey-Redux/static/js/2.259d31af.chunk.js.map",
+    "index.html": "/Skypey-Redux/index.html",
+    "precache-manifest.db0f3cd44bccbffbee1ec100bd663f3f.js": "/Skypey-Redux/precache-manifest.db0f3cd44bccbffbee1ec100bd663f3f.js",
+    "service-worker.js": "/Skypey-Redux/service-worker.js",
+    "static/css/main.bb7baa28.chunk.css.map": "/Skypey-Redux/static/css/main.bb7baa28.chunk.css.map"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.a4b70d60.js",
+    "static/js/2.259d31af.chunk.js",
+    "static/css/main.bb7baa28.chunk.css",
+    "static/js/main.1d5e0c06.chunk.js"
+  ]
+}
